@@ -1,0 +1,46 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 55px;
+}
+
+.name-color{
+    color: orange;
+}
+#font-size{
+    font-size: 20px
+    
+}
+section h2{
+    font-size: 28px;
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(250, 249, 249);
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
+
