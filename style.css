@@ -19,6 +19,7 @@ section h2{
 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -39,8 +40,22 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-big h1{
+    font-size: 55px;
+}
+.dream-big{
+    margin-right: 200px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
-
-
+.dream-big p{
+    font-size: 20px
+}
+#half-width img{
+    width: 70%;
+    padding-left: 2%;
+}
 
 
