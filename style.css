@@ -17,13 +17,14 @@ section h2{
     font-size: 28px;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
+    
 }
 .half-width img{
     width: 85%;
@@ -48,6 +49,10 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
+}
+.font-size{
+    font-size: 45px;
 }
 
 .dream-big p{
@@ -57,5 +62,32 @@ section{
     width: 70%;
     padding-left: 2%;
 }
-
-
+.developer{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+    /* border-left: 10px solid ; */
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Baby-Web-Developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#Pro-Level-Developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
